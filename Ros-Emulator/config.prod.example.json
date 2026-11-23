@@ -1,0 +1,15 @@
+{
+  "_comment": "Production template. Replace public_host with the VPS public IPv4 address before use.",
+  "game_directory": "",
+  "public_host": "YOUR_VPS_PUBLIC_IPV4",
+  "bind_host": "0.0.0.0",
+  "http_port": 80,
+  "https_port": 443,
+  "loginapp_port": 20013,
+  "baseapp_port": 20015,
+  "server_name": "ros-singapore",
+  "room_map_name": "Ghillie Island",
+  "room_max_players": 100,
+  "room_min_players": 2,
+  "room_countdown_seconds": 5
+}

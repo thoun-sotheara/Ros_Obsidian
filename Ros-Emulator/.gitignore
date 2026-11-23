@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc_raw
+
+# Logs and runtime dumps
+logs/
+serverlogs/
+*.log
+dump_*.bin
+
+# Session state (Keep accounts.json, ignore transient session)
+data/current_session.json
+data/ros_server.db
+data/ros_server.db-shm
+data/ros_server.db-wal
+
+# OS and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db

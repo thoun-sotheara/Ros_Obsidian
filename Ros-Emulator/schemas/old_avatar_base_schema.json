@@ -1,0 +1,1489 @@
+{
+  "evidence": {
+    "datatype_schema_sha256": "8e870257567257c11d0a6a40c7ea426c6c9764255bd93ff4ae8ec8876e719857",
+    "order_sha256": "ed46cf092c5e94aac6dedacdee43a0dd6b8d62d6cd959a3eef1d97ab70c7cca1"
+  },
+  "format_version": 1,
+  "kind": "old-avatar-base-schema",
+  "old_exe_sha256": "184962db92cecdbf1afb78c97d2f7d8c3b6959c7b6bffe2e782795ae1fe81d89",
+  "property_count": 94,
+  "property_order_sha256": "6d2f690f86d225c018cf877faec5510047636e954a46f0b0fc47ebc8086f3282",
+  "roots": [
+    {
+      "base_ordinal": 0,
+      "default": {
+        "bytes_hex": "00000000000000000000000000000000"
+      },
+      "default_source": "offline-server-state",
+      "name": "playerUUID",
+      "ordinal": 0,
+      "type": {
+        "kind": "blob"
+      }
+    },
+    {
+      "base_ordinal": 1,
+      "default": "RoSGuest",
+      "default_source": "offline-server-state",
+      "name": "playerName",
+      "ordinal": 1,
+      "type": {
+        "kind": "blob"
+      }
+    },
+    {
+      "base_ordinal": 2,
+      "default": "RoSGuest",
+      "default_source": "offline-server-state",
+      "name": "bindedPlayerName",
+      "ordinal": 2,
+      "type": {
+        "kind": "blob"
+      }
+    },
+    {
+      "base_ordinal": 3,
+      "default": "RoSGuest",
+      "default_source": "offline-server-state",
+      "name": "identifierName",
+      "ordinal": 3,
+      "type": {
+        "kind": "blob"
+      }
+    },
+    {
+      "base_ordinal": 4,
+      "default": "Survivor",
+      "default_source": "offline-server-state",
+      "name": "baseNickname",
+      "ordinal": 4,
+      "type": {
+        "kind": "blob"
+      }
+    },
+    {
+      "base_ordinal": 5,
+      "default": 10001,
+      "default_source": "offline-server-state",
+      "name": "gid",
+      "ordinal": 5,
+      "type": {
+        "kind": "uint64"
+      }
+    },
+    {
+      "base_ordinal": 6,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "deviceInfo",
+      "ordinal": 11,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 7,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "lp",
+      "ordinal": 22,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 8,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "legionLabData",
+      "ordinal": 23,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 9,
+      "default": {
+        "bytes_hex": ""
+      },
+      "default_source": "native-type-empty-default",
+      "name": "attackDefendLegionName",
+      "ordinal": 24,
+      "type": {
+        "kind": "string"
+      }
+    },
+    {
+      "base_ordinal": 10,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "isDeclareOnLigeance",
+      "ordinal": 25,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 11,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "legionDefendState",
+      "ordinal": 41,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 12,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "credit_dict",
+      "ordinal": 47,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 13,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "credit_daily_gain",
+      "ordinal": 48,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 14,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "currency_daily_gain",
+      "ordinal": 49,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 15,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "area_task_daily_finish",
+      "ordinal": 50,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 16,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "area_task_get_dict",
+      "ordinal": 51,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 17,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "area_pvp_task_dict",
+      "ordinal": 52,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 18,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "currency_dict",
+      "ordinal": 53,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 19,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastGainTime",
+      "ordinal": 55,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 20,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastTaskTime",
+      "ordinal": 56,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 21,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastPVPTaskTime",
+      "ordinal": 57,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 22,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastCurrencyGainTime",
+      "ordinal": 59,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 23,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "appearanceWarehousePoint",
+      "ordinal": 65,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 24,
+      "default": 1,
+      "default_source": "offline-server-state",
+      "name": "appearanceWarehouseLevel",
+      "ordinal": 66,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 25,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "showPickNum",
+      "ordinal": 80,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 26,
+      "default": {
+        "_packageCapacity": 0,
+        "itemList": [],
+        "layoutInfo": []
+      },
+      "default_source": "offline-server-state",
+      "name": "dtsItemPackage",
+      "ordinal": 87,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "itemList",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "uuid",
+                    "type": {
+                      "kind": "blob"
+                    }
+                  },
+                  {
+                    "name": "itemID",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "number",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "info",
+                    "type": {
+                      "kind": "python"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          },
+          {
+            "name": "layoutInfo",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 27,
+      "default": [],
+      "default_source": "native-type-empty-default",
+      "name": "curGuideFlows",
+      "ordinal": 88,
+      "type": {
+        "element": {
+          "kind": "uint16"
+        },
+        "fixed_size": 0,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 28,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "customControlSchemeDicts",
+      "ordinal": 90,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 29,
+      "default": [],
+      "default_source": "native-type-empty-default",
+      "name": "touchedEvents",
+      "ordinal": 180,
+      "type": {
+        "element": {
+          "kind": "int32"
+        },
+        "fixed_size": 0,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 30,
+      "default": 2,
+      "default_source": "offline-server-state",
+      "name": "dtsAppearanceGender",
+      "ordinal": 261,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 31,
+      "default": {
+        "_packageCapacity": 0,
+        "itemList": [],
+        "layoutInfo": []
+      },
+      "default_source": "offline-server-state",
+      "name": "itemPackage",
+      "ordinal": 336,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "itemList",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "uuid",
+                    "type": {
+                      "kind": "blob"
+                    }
+                  },
+                  {
+                    "name": "itemID",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "number",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "info",
+                    "type": {
+                      "kind": "python"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          },
+          {
+            "name": "layoutInfo",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 32,
+      "default": {
+        "_packageCapacity": 0,
+        "itemList": [],
+        "layoutInfo": []
+      },
+      "default_source": "offline-server-state",
+      "name": "missionPackage",
+      "ordinal": 337,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "itemList",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "uuid",
+                    "type": {
+                      "kind": "blob"
+                    }
+                  },
+                  {
+                    "name": "itemID",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "number",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "info",
+                    "type": {
+                      "kind": "python"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          },
+          {
+            "name": "layoutInfo",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 33,
+      "default": {
+        "_packageCapacity": 0,
+        "itemList": [],
+        "layoutInfo": []
+      },
+      "default_source": "offline-server-state",
+      "name": "costumePackage",
+      "ordinal": 338,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "itemList",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "uuid",
+                    "type": {
+                      "kind": "blob"
+                    }
+                  },
+                  {
+                    "name": "itemID",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "number",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "info",
+                    "type": {
+                      "kind": "python"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          },
+          {
+            "name": "layoutInfo",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 34,
+      "default": {
+        "_packageCapacity": 0,
+        "itemList": [],
+        "layoutInfo": []
+      },
+      "default_source": "offline-server-state",
+      "name": "vehiclePackage",
+      "ordinal": 339,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "itemList",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "uuid",
+                    "type": {
+                      "kind": "blob"
+                    }
+                  },
+                  {
+                    "name": "itemID",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "number",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "info",
+                    "type": {
+                      "kind": "python"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          },
+          {
+            "name": "layoutInfo",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 35,
+      "default": {
+        "_packageCapacity": 0,
+        "itemList": [],
+        "layoutInfo": [],
+        "seqList": []
+      },
+      "default_source": "offline-server-state",
+      "name": "temporaryPackage",
+      "ordinal": 340,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "itemList",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "uuid",
+                    "type": {
+                      "kind": "blob"
+                    }
+                  },
+                  {
+                    "name": "itemID",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "number",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "info",
+                    "type": {
+                      "kind": "python"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          },
+          {
+            "name": "layoutInfo",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          },
+          {
+            "name": "seqList",
+            "type": {
+              "kind": "python"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 36,
+      "default": {
+        "_packageCapacity": 2,
+        "layoutInfoList": [],
+        "repertoryCount": 2,
+        "repertoryItemList": []
+      },
+      "default_source": "offline-server-state",
+      "name": "repertoryPackage",
+      "ordinal": 341,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "repertoryItemList",
+            "type": {
+              "kind": "python"
+            }
+          },
+          {
+            "name": "repertoryCount",
+            "type": {
+              "kind": "uint32"
+            }
+          },
+          {
+            "name": "_packageCapacity",
+            "type": {
+              "kind": "uint32"
+            }
+          },
+          {
+            "name": "layoutInfoList",
+            "type": {
+              "kind": "python"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 37,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "vehicleItemID",
+      "ordinal": 345,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 38,
+      "default": [],
+      "default_source": "native-type-empty-default",
+      "name": "normalMasterSkillsBase",
+      "ordinal": 359,
+      "type": {
+        "element": {
+          "allow_none": false,
+          "fields": [
+            {
+              "name": "masterSkillID",
+              "type": {
+                "kind": "int32"
+              }
+            },
+            {
+              "name": "masterSkillLevel",
+              "type": {
+                "kind": "int32"
+              }
+            }
+          ],
+          "kind": "fixed_dict"
+        },
+        "fixed_size": 0,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 39,
+      "default": {
+        "masterSkillID": 0,
+        "masterSkillLevel": 0
+      },
+      "default_source": "native-type-empty-default",
+      "name": "mainMasterSkillBase",
+      "ordinal": 363,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "masterSkillID",
+            "type": {
+              "kind": "int32"
+            }
+          },
+          {
+            "name": "masterSkillLevel",
+            "type": {
+              "kind": "int32"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 40,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "isMuzzled",
+      "ordinal": 368,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 41,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "openServerTime",
+      "ordinal": 376,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 42,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "lastSevenAward",
+      "ordinal": 378,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 43,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastSevenAwardTimestamp",
+      "ordinal": 379,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 44,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "levelAwards",
+      "ordinal": 380,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 45,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "forceAwards",
+      "ordinal": 381,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 46,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "firstPayAward",
+      "ordinal": 382,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 47,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "onlineAward",
+      "ordinal": 383,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 48,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "onlineSeconds",
+      "ordinal": 384,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 49,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastPayTime",
+      "ordinal": 385,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 50,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "payHistory",
+      "ordinal": 386,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 51,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "payAwards",
+      "ordinal": 387,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 52,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "dailyPayHistory",
+      "ordinal": 388,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 53,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "dailyPayAwards",
+      "ordinal": 389,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 54,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastConsumeTime",
+      "ordinal": 390,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 55,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "consumeHistory",
+      "ordinal": 391,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 56,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "consumeAwards",
+      "ordinal": 392,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 57,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "dailyConsumeHistory",
+      "ordinal": 393,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 58,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "dailyConsumeAwards",
+      "ordinal": 394,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 59,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "unGetAwards",
+      "ordinal": 395,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 60,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "monthCardExpire",
+      "ordinal": 396,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 61,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastMonthCardAward",
+      "ordinal": 397,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 62,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "monthCardAmount",
+      "ordinal": 398,
+      "type": {
+        "kind": "int16"
+      }
+    },
+    {
+      "base_ordinal": 63,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "growthFundPurchase",
+      "ordinal": 399,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 64,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "growthFundGainDict",
+      "ordinal": 400,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 65,
+      "default": 1,
+      "default_source": "offline-server-state",
+      "name": "equipmentCultivateState",
+      "ordinal": 401,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 66,
+      "default": {
+        "bytes_hex": ""
+      },
+      "default_source": "native-type-empty-default",
+      "name": "holdingWeapon",
+      "ordinal": 404,
+      "type": {
+        "kind": "blob"
+      }
+    },
+    {
+      "base_ordinal": 67,
+      "default": [
+        {
+          "bytes_hex": ""
+        },
+        {
+          "bytes_hex": ""
+        }
+      ],
+      "default_source": "offline-server-state",
+      "name": "weaponBag",
+      "ordinal": 405,
+      "type": {
+        "element": {
+          "kind": "blob"
+        },
+        "fixed_size": 2,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 68,
+      "default": {
+        "elements": []
+      },
+      "default_source": "native-type-empty-default",
+      "name": "ranklistInRoom",
+      "ordinal": 409,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "elements",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "gid",
+                    "type": {
+                      "kind": "uint64"
+                    }
+                  },
+                  {
+                    "name": "rank",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  },
+                  {
+                    "name": "score",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 69,
+      "default": {
+        "elements": []
+      },
+      "default_source": "native-type-empty-default",
+      "name": "playerListInRoom",
+      "ordinal": 410,
+      "type": {
+        "allow_none": false,
+        "fields": [
+          {
+            "name": "elements",
+            "type": {
+              "element": {
+                "allow_none": false,
+                "fields": [
+                  {
+                    "name": "gid",
+                    "type": {
+                      "kind": "uint64"
+                    }
+                  },
+                  {
+                    "name": "name",
+                    "type": {
+                      "kind": "string"
+                    }
+                  },
+                  {
+                    "name": "characterType",
+                    "type": {
+                      "kind": "int32"
+                    }
+                  }
+                ],
+                "kind": "fixed_dict"
+              },
+              "fixed_size": 0,
+              "kind": "array"
+            }
+          }
+        ],
+        "kind": "fixed_dict"
+      }
+    },
+    {
+      "base_ordinal": 70,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "quizActivityOpened",
+      "ordinal": 411,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 71,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "quizActivityCouldJoin",
+      "ordinal": 412,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 72,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "willingToJoinQuiz",
+      "ordinal": 413,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 73,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "legionQuizActivityOpened",
+      "ordinal": 414,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 74,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "legionQuizActivityCouldJoin",
+      "ordinal": 415,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 75,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "willingToJoinLegionQuiz",
+      "ordinal": 416,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 76,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "isInQuizRoom",
+      "ordinal": 417,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 77,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "correctAnswerNum",
+      "ordinal": 418,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 78,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "totalQuestionNum",
+      "ordinal": 419,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 79,
+      "default": [],
+      "default_source": "native-type-empty-default",
+      "name": "currencyAwardList",
+      "ordinal": 432,
+      "type": {
+        "element": {
+          "allow_none": false,
+          "fields": [
+            {
+              "name": "id",
+              "type": {
+                "kind": "int32"
+              }
+            },
+            {
+              "name": "num",
+              "type": {
+                "kind": "int64"
+              }
+            }
+          ],
+          "kind": "fixed_dict"
+        },
+        "fixed_size": 0,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 80,
+      "default": [],
+      "default_source": "native-type-empty-default",
+      "name": "friendList",
+      "ordinal": 439,
+      "type": {
+        "element": {
+          "kind": "uint64"
+        },
+        "fixed_size": 0,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 81,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastLogOutTime",
+      "ordinal": 441,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 82,
+      "default": -1,
+      "default_source": "offline-server-state",
+      "name": "currentMapID",
+      "ordinal": 442,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 83,
+      "default": [],
+      "default_source": "native-type-empty-default",
+      "name": "freshUnlockedPVPName",
+      "ordinal": 455,
+      "type": {
+        "element": {
+          "kind": "string"
+        },
+        "fixed_size": 0,
+        "kind": "array"
+      }
+    },
+    {
+      "base_ordinal": 84,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "lastLevelUpTime",
+      "ordinal": 456,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 85,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "openChestCount",
+      "ordinal": 459,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 86,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "exp",
+      "ordinal": 460,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 87,
+      "default": 1,
+      "default_source": "offline-server-state",
+      "name": "baseLevel",
+      "ordinal": 464,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 88,
+      "default": 0.0,
+      "default_source": "native-type-empty-default",
+      "name": "createTime",
+      "ordinal": 469,
+      "type": {
+        "kind": "float32"
+      }
+    },
+    {
+      "base_ordinal": 89,
+      "default": 10002,
+      "default_source": "offline-server-state",
+      "name": "baseCharacterType",
+      "ordinal": 495,
+      "type": {
+        "kind": "uint32"
+      }
+    },
+    {
+      "base_ordinal": 90,
+      "default": {},
+      "default_source": "offline-server-state",
+      "name": "dungeonKORecord",
+      "ordinal": 499,
+      "type": {
+        "kind": "python"
+      }
+    },
+    {
+      "base_ordinal": 91,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "isVnUser",
+      "ordinal": 522,
+      "type": {
+        "kind": "int8"
+      }
+    },
+    {
+      "base_ordinal": 92,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "identifyTagID",
+      "ordinal": 527,
+      "type": {
+        "kind": "int32"
+      }
+    },
+    {
+      "base_ordinal": 93,
+      "default": 0,
+      "default_source": "native-type-empty-default",
+      "name": "occupation",
+      "ordinal": 529,
+      "type": {
+        "kind": "int8"
+      }
+    }
+  ]
+}

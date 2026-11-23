@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "vip_level": 0,
+  "premium": false,
+  "items": {
+    "costumes": [
+      {"item_id": 110001, "name": "Free Desert Outfit", "number": 1},
+      {"item_id": 110002, "name": "Free Arctic Outfit", "number": 1},
+      {"item_id": 110003, "name": "Free Urban Outfit", "number": 1}
+    ],
+    "weapon_skins": [
+      {"item_id": 210001, "name": "Free AKM Skin", "number": 1},
+      {"item_id": 210002, "name": "Free M4A1 Skin", "number": 1},
+      {"item_id": 210003, "name": "Free Kar98k Skin", "number": 1}
+    ],
+    "parachutes": [
+      {"item_id": 310001, "name": "Free Cloud Parachute", "number": 1},
+      {"item_id": 310002, "name": "Free Shield Parachute", "number": 1}
+    ],
+    "vehicle_skins": [
+      {"item_id": 410001, "name": "Free Jeep Skin", "number": 1},
+      {"item_id": 410002, "name": "Free Bike Skin", "number": 1}
+    ],
+    "profile_frames": [
+      {"item_id": 510001, "name": "Free Silver Frame", "number": 1},
+      {"item_id": 510002, "name": "Free Bronze Frame", "number": 1}
+    ]
+  },
+  "defaults": {
+    "costume_item_id": 110001,
+    "weapon_skin_item_id": 210001,
+    "parachute_item_id": 310001,
+    "vehicle_skin_item_id": 410001,
+    "profile_frame_item_id": 510001
+  }
+}

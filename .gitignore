@@ -1,0 +1,78 @@
+# Local Python environment
+.venv/
+.git-save/
+__pycache__/
+*.py[cod]
+
+# Logs and runtime data
+logs/
+serverlogs/
+*.log
+data/current_session.json
+data/ros_server.db
+data/ros_server.db-shm
+data/ros_server.db-wal
+
+# Secrets and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+.env
+.env.*
+*.token
+*.credential
+*.credentials
+credentials.json
+secrets.json
+
+# Emulator runtime state and cryptographic material
+Ros-Emulator/crypto/bfctx.bin
+Ros-Emulator/crypto/session_bfkey.bin
+Ros-Emulator/crypto/*.pem
+Ros-Emulator/data/accounts.json
+Ros-Emulator/certs/*.csr
+Ros-Emulator/certs/*.srl
+Ros-Emulator/config.json
+
+# iOS packaged/binary artifacts
+*.ipa
+*.zip
+*.dSYM/
+Payload/**/*.app/
+IPA_IOS/**/Payload/
+IPA_IOS/**/*.zip
+
+# Game binaries and asset packages
+*.exe
+*.dll
+*.pdb
+*.apk
+*.npk
+*.fsb
+*.ttc
+*.ttf
+*.mp4
+*.mov
+*.m4v
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.so
+*.dylib
+*.a
+*.framework/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
